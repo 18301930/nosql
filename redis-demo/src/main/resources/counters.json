@@ -1,0 +1,38 @@
+{
+  "counters": [
+    {
+      "countername": "countnum",
+      "counterIndex": 1,
+      "type": "num",
+      "keyfields": "count",
+      "valuefields": 1
+    },
+    {
+      "countername": "counthash",
+      "counterIndex": 2,
+      "type": "hash",
+      "keyfields": "counthash",
+      "valuefields": 1
+    },
+    {
+      "countername": "countlog",
+      "counterIndex": 3,
+      "type": "list",
+      "keyfields": "countlist",
+      "valuefields": 1
+    },
+    {
+      "countername": "str",
+      "counterIndex": 4,
+      "type": "str",
+      "keyfields": "str"
+    },
+    {
+      "countername": "countSet",
+      "counterIndex": 5,
+      "type": "set",
+      "keyfields": "countSet"
+    }
+
+  ]
+}

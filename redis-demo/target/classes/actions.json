@@ -1,0 +1,92 @@
+{
+  "actions": [
+    {
+      "actionname": "pluscount",
+      "actionIndex": 1,
+      "feature_retrieve":{
+        "counter": [
+        ]
+      },
+      "save_counter": {
+        "counter": [
+          {"countname":"countnum" },
+          {"countname":"counthash"},
+          {"countname":"countlog"},
+          {"countname":"countSet"}
+        ]
+      }
+    },
+
+
+    {
+      "actionname": "readcount",
+      "actionIndex": 2,
+      "feature_retrieve": {
+        "counter": [
+          {"countname":"countnum" }
+        ]
+      },
+      "save_counter": {
+        "counter": [
+        ]
+      }
+    },
+
+    {
+      "actionname": "readfreq",
+      "actionIndex": 3,
+      "feature_retrieve": {
+        "counter": [
+          {"countname":"counthash" }
+        ]
+      },
+      "save_counter": {
+        "counter": [
+        ]
+      }
+
+
+    },
+
+    {
+      "actionname": "readlog",
+      "actionIndex": 4,
+      "feature_retrieve": {
+        "counter": [
+          {"countname":"countlog" }
+        ]
+      },
+      "save_counter": {
+        "counter": [
+        ]
+      }
+    },
+    {
+      "actionname": "readSTR",
+      "actionIndex": 5,
+      "feature_retrieve": {
+        "counter": [
+          {"countname":"str" }
+        ]
+      },
+      "save_counter": {
+        "counter": [
+        ]
+      }
+    },
+
+    {
+      "actionname": "readSet",
+      "actionIndex": 6,
+      "feature_retrieve": {
+        "counter": [
+          {"countname":"countSet" }
+        ]
+      },
+      "save_counter": {
+        "counter": [
+        ]
+      }
+    }
+  ]
+}
